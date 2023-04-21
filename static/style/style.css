@@ -1,0 +1,24 @@
+@import url('bootstrap-variables.css');
+@import url('colorscheme.css');
+* {
+	box-sizing: border-box !important;
+	transition: 0.3s;
+}
+
+body {
+	background-color: var(--cs-body-color);
+}
+hr {
+	height: 5px;
+	border: none;
+	background: var(--cs-primary-gradient);
+}
+
+a {
+	color: var(--cs-text-color);
+	text-decoration: none;
+}
+
+a :visited {
+	color: var(--cs-text-color);
+}
